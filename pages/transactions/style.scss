@@ -1,0 +1,97 @@
+.aplince{
+    margin-left: 348px;
+    #bty{
+        width: 120px;
+    }
+}
+.information_of_tramsactions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    margin-left: 348px;
+    margin-block: 30px 20px;
+    h2{
+        font-family: Open Sans;
+        font-size: 18px;
+        line-height: 24.51px;
+        color: #616A8B;
+    }
+    .trs{
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        color: #616A8B;
+    }
+    .flex{
+        display: flex;
+        gap: 10px;
+    }
+}
+.active_tr{
+    font-family: Open Sans;
+    padding-inline: 5px;
+    font-size: 14px;
+    line-height: 19.07px;
+    height: 24px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: #32395E;
+    color: white;
+    border-bottom: 3px solid #1288E8;
+}
+.all_transictions{
+    margin-left: 348px;
+    .place_for_transactions{
+        height: 70vh;
+        overflow-y: scroll;
+        .transaction{
+            width: 1020px;
+            height: 62px;
+            opacity: 0.3px;  
+            background: #2E3558;          
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+            .right{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            h3{
+                font-family: Open Sans;
+                font-size: 14px;
+                line-height: 19.07px;
+                color: white;
+            }
+            img{
+                max-width: 70%;
+            }
+            .symbol{
+                height: 30px;
+                padding-left: 7px;
+                border: 2px solid #1288E8;
+                border-radius: 45%;
+            }
+            .completed{
+                cursor: pointer;
+                width: 130px;
+                height: 30px;
+                font-family: Open Sans;
+                font-size: 14px;
+                line-height: 19.07px;
+                color: white;
+                background: #00E8ACBF;
+                border: 0;
+                border-radius: 12px;
+            }
+        }
+    }
+}

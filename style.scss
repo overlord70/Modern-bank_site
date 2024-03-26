@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    height: 100vh;
+    background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #20135C 0%, #140739 92.82%);
+}
+// .one, .two{
+//     width: 1000px !important; 
+// }
+.aplince{
+    margin-left: 230px;
+    margin-bottom: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-family: Open Sans;
+        font-size: 18px;
+        line-height: 24.51px;
+        text-align: left;
+        color: #ffff;
+    }
+    h3{
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        color: #54669C;
+    }
+    .flex_time{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    #bty{
+        cursor: pointer;
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        color: #ffff;
+        background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+        border-radius: 25px;
+        border: 0;
+        width: 100px;
+        height: 29px;
+    }
+}
+.main{
+    margin-bottom: -700px;
+    display: flex;
+    gap:50px;
+}
+.aside{
+    position: relative;
+    width: 290px;
+    height: 800px;
+    background: linear-gradient(0.32deg, rgba(28, 35, 64, 0) -5.79%, #1C0F54 114.59%);
+    filter: drop-shadow(5px 5px 5px black);
+    .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            padding-block: 30px;
+            font-family: Raleway;
+            font-size: 40px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color:  #3BA0FF;
+        }
+        .line{
+            margin-top: -7px;
+            background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+            height: 3px;
+            width: 130px;
+        }
+    }
+    .nav_link{
+        cursor: pointer;
+        margin-block: 20px;
+        padding-inline: 30px;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        color: #616A8B;
+        .link{
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0em;
+        }
+    }
+}
+.active_link{
+    width: 290px;
+    height: 70px;
+    background: #32395E;
+    border-bottom: 2px solid #3887FE;
+    p{
+        color: white;
+    }
+}
+.footer{
+    margin-left: 30px;
+    position: absolute;
+    bottom: 20px;
+    h2{
+        color: #616A8B;
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0em;
+    }
+    .line{
+        margin-block: 20px;
+        width: 220px;
+        height: 2px;
+        background-color: #018FFF;
+    }
+}
+.account{
+    display: flex;
+    align-items: center;
+}
+.log_out{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    h2{
+        color: #616A8B;
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0em;
+    }
+
+}
+.header{
+    border-bottom: 2px solid #2D317A;
+    height: 90px;
+    display: flex;
+    gap: 550px;
+    .left{
+        margin-top: 30px;
+        position: relative;
+        input{
+            color: white;
+            padding-inline: 20px;
+            height: 40px;
+            width: 370px;
+            border: 1px solid black;
+            border-radius: 50px;
+            background: #161245;
+        }
+        img{
+            cursor: pointer;
+            position: absolute;
+            top: 7px;
+            right: 10px;
+        }
+    }
+    .right{
+        margin-top: 30px;
+    }
+}
+.widgets{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-inline: 200px -90px;
+    h2{
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        text-align: left;
+        color: #ffff;
+    }
+    .overal_balance{
+        width: 225.99px;
+        height: 312px;
+        padding: 15px 30px;
+        filter: drop-shadow(5px 5px 5px black);
+        background: linear-gradient(180deg, rgba(27, 18, 78, 0.2) 0%, #0F0B38 93.37%);
+    }
+}
+.transactionizer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.table tr{
+    gap: 70px;
+    display: flex;
+    align-items: center;
+}
+.inf{
+    width: 170px;
+    position: absolute;
+    bottom: 20px;
+}
+.piece{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: white;
+    .flex{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    #one, #two, #three{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    #one{
+        box-shadow: 0px 4px 4px 0px #8A53FF33;
+        background: #F5FBFE;
+    }
+    #two{
+        background: #4E93F5;
+        box-shadow: 0px 4px 4px 0px #0097E833;
+    }
+    #three{
+        box-shadow: 0px 4px 4px 0px #46444E;
+        background: #FAD679;
+    }
+    #thereum{
+        color: white;
+    }
+    #bitcoin{
+        color: #018FFF;
+    }
+    #dash{
+        color: #FAD679;
+    }
+}
+.diagram{
+    height: 150px;
+}
+.chart{
+    filter: drop-shadow(5px 5px 5px black);
+    padding: 20px 15px;
+    width: 238.99px;
+    height: 312px;
+    top: 2760px;
+    left: 794.98px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, rgba(27, 18, 78, 0.2) 0%, #0F0B38 93.37%);
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       h2{
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+       }
+       select{
+        background: linear-gradient(180deg, rgba(27, 18, 78, 0.2) 0%, #0F0B38 93.37%);
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        text-align: left;
+        border: 0;
+        color: white;
+       }
+    }
+}
+.ballance{
+margin-top: 20px;
+ font-family: Open Sans;
+ font-size: 16px;
+ line-height: 21.79px;
+ color: white;
+}
+#spent{
+ font-family: Open Sans;
+ font-size: 8px;
+ line-height: 10.89px;
+ color: #ffff;
+}
+.card{
+    padding: 10px 15px;
+    width: 283.99px;
+    height: 148px;
+    top: 2760px;
+    left: 1049.97px;
+    gap: 0px;
+    border-radius: 5px;
+    .one_more_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        table{
+            .changichg{
+                color: white;
+                .one{
+                font-family: Open Sans;
+                font-size: 8px;
+                line-height: 10.89px;
+                }
+                .two{
+                font-family: Open Sans;
+                font-size: 6px;
+                line-height: 8.17px;
+                }
+            }
+        }
+    }
+    h2{
+        margin-bottom: 10px;
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        text-align: left;
+        color: white;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        .money_of_card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .white{
+                font-family: Open Sans;
+                font-size: 14px;
+                line-height: 19.07px;
+                text-align: left;
+                color: white;
+            }
+            .grey{
+                font-family: Open Sans;
+                font-size: 12px;
+                line-height: 16.34px;
+                text-align: left;
+                color: #616A8B;
+            }
+        }
+        .currenncy_of_your_card{
+            position: relative;
+            margin-left: -20px;
+            .img_2{
+                position: absolute;
+                top: 17px;
+                left: 29px;
+            }
+        }
+    }
+}
+#reload{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.tablr{
+    height: 800;
+}

@@ -1,0 +1,131 @@
+.regist_logo{
+    display: flex;
+    gap: 400px;
+}
+.registration{
+    margin-top: 100px;
+    margin-left: -70px;
+    width: 480px;
+    height: 595px;
+    padding: 30px 5px;
+    border-radius: 8px;   
+    background: linear-gradient(180deg, #1E1156 0%, rgba(28, 35, 64, 0) 100%);
+    filter: drop-shadow(10px 10px 10px black);
+    border: 1px solid black;
+    .non_active{
+        display: none;
+    }
+    .active_form{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+    h1{
+        font-family: Roboto;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .sign_in, .sign_up{
+        margin: 35px 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        row-gap: 30px;
+        input{
+            border-radius: 8px;
+            height: 40px;
+            background: #2E3558;
+            color: #616A8B;
+            padding-inline: 20px;
+            border: 0;
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0em;
+        }
+    }
+    .ups_mind_fall{
+        cursor: pointer;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 16.41px;
+        text-align: center;
+        color: #5FB2FF;
+        text-decoration: underline #5FB2FF;
+    }
+    #cube{
+        position: absolute;
+        top: 20px;
+        left: 460px;
+        opacity: 0.2;
+    }
+    #triugol{
+        position: absolute;
+        top: 110px;
+        left: -60px;
+    }
+}
+.btns{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    button{
+        cursor: pointer;
+        border: 0;
+        width: 105px;
+        height: 42px;
+        border-radius: 8px;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #949EC0;
+        background: linear-gradient(88.43deg, #2F3453 11.5%, #242845 76.7%);
+    }
+    .active_btn{
+        background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+        color: #FFFFFF;
+    }
+}
+.logo{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 28.13px;
+        color: #FFFFFF;
+    }
+}
+.inner_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 50px;
+    line-height: 84.53px;
+    letter-spacing: 0.05em;
+    color: #3887FE;
+}
+.line{
+    margin-block: 20px;
+    width: 200px;
+    height: 2px;
+    background-color: #3887FE;
+}
+.wave{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.polygon{
+    position: absolute;
+    right: 410px;
+    bottom: 170px;
+}

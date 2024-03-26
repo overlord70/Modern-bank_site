@@ -1,0 +1,32 @@
+.aplince h2{
+    margin-left: 120px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.overal_money_and_cards{
+    height: 200px;
+    overflow-x:scroll;
+    margin: 0px 200px;
+    width: 1030px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}
+.canvas{
+    height: 200px;
+    width: 200px;
+}
+#add_wallet{
+    margin-right: -120px;
+    border: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #ffff;
+    background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    border-radius: 25px;
+    border: 0;
+    width: 100px;
+    height: 29px;
+}

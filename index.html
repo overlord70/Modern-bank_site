@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.scss">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <script defer="defer" src="/modules/guardian.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <section class="main"></section>
+
+        <section class="one">
+            <div class="wrap">
+                <div class="aplince">
+                    <div class="flex_time">
+                        <h2>Overview</h2>
+                        <h3></h3>
+                    </div>
+                    <button id="bty">Add widget</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="two">
+            <div class="wrap">
+                <div class="widgets">
+                    <div class="overal_balance">
+                        <h2>Balance</h2>
+                        <div class="diagram">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                        <div class="inf">
+                            <div class="piece">
+                                <div class="flex">
+                                    <div id="one"></div>
+                                    Ethereum
+                                </div>
+                                <p id="thereum">
+                                    <span >18</span>%
+                                </p>
+                            </div>
+                            <div class="piece">
+                                <div class="flex">
+                                    <div id="two"></div>
+                                    Bitcoin
+                                </div>
+                                <p id="bitcoin">
+                                    <span >64</span>%
+                                </p>
+                            </div>
+                            <div class="piece">
+                                <div class="flex">
+                                    <div id="three"></div>
+                                    Dash
+                                </div>
+                                <p id="dash">
+                                    <span >18</span>%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart">
+                       <div class="flex">
+                        <h2>Spending</h2>
+                        <select>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                       </div>
+                       <p class="ballance">
+                        $ <span id="number">5,743.35</span>
+                       </p>
+                       <p id="spent">total spending</p>
+                       <div class="tablr">
+                        <canvas id="chart"></canvas>
+                       </div>
+                    </div>
+                    <div id="reload"></div>
+                </div>
+            </div>
+        </section>
+        <section class="transactionizer">
+            <div class="wrap">
+                <div class="grid_of_transactions">
+                    <div class="novel">
+                    </div>
+                    <div class="que_of_transactions"></div>
+                </div>
+            </div>
+        </section>
+        <script type="module" src="./main.js"></script>
+    </body>
+</html>
