@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 img{
     max-width: 100%;
 }
@@ -375,6 +378,11 @@ margin-top: 20px;
 .tablr{
     height: 800;
 }
+.grid_of_transactions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
 .novel{
     margin-top: 50px;
     margin-left: 320px;
@@ -382,5 +390,49 @@ margin-top: 20px;
     height: 232px;
     border-radius: 5px;
     background: linear-gradient(176.95deg, rgba(27, 18, 78, 0.2) -32.8%, #0F0B38 88.83%);
-    border: 2px solid black;
+    filter: drop-shadow(2px 2px 2px black);
+}
+.que_of_transactions{
+    padding: 20px 30px;
+    width: 409.98px;
+    height: 232px;
+    border-radius: 5px;
+    margin-top: 50px;
+    overflow-y: scroll;
+    background: linear-gradient(185.19deg, rgba(27, 18, 78, 0.2) 3.73%, #0F0B38 95.83%);
+    filter: drop-shadow(5px 5px 5px black);
+    h2{
+        margin-bottom: 10px;
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 19.07px;
+        text-align: left;
+        color: white;
+    }
+    hr{
+        border: 1px solid #2D317A
+    }
+    
+    .news{
+        cursor: pointer;
+        width: 350px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            font-family: Open Sans;
+            font-size: 12px;
+            line-height: 16.34px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+        p{
+            font-family: Open Sans;
+            font-size: 12px;
+            line-height: 16.34px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+    }
 }
