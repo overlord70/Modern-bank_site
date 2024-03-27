@@ -10,382 +10,59 @@
   ],
   "wallets": [
     {
-      "id": "0.4400490557438985",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "d6fe",
-      "name": "Daler",
-      "currency": "USD",
-      "balance": "1134"
-    },
-    {
-      "id": "0.42344722339894103",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "d6fe",
-      "name": "VISA",
-      "currency": "UZS",
-      "balance": "100"
-    },
-    {
-      "id": "0.7682254708077147",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "d6fe",
-      "name": "Daler",
-      "currency": "BAM",
-      "balance": "1011"
-    },
-    {
-      "id": "0.4128494505646596",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "Gradus Visa",
-      "currency": "CLF",
-      "balance": "30000"
-    },
-    {
-      "id": "0.203512042682791",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "figoo",
-      "currency": "AMD",
-      "balance": "4441445"
-    },
-    {
-      "id": "0.30000351599848574",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "Arabic",
-      "currency": "AED",
-      "balance": "55544554"
-    },
-    {
-      "id": "0.6762300151826555",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "rubleeees",
-      "currency": "RUB",
-      "balance": "999223"
-    },
-    {
-      "id": "0.9762308473939847",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "max pain",
-      "currency": "BRL",
-      "balance": "1"
-    },
-    {
-      "id": "0.7668035463227536",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "deneeeg",
-      "currency": "JPY",
-      "balance": "666666"
-    },
-    {
-      "id": "0.4384463164497967",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "yupiiii",
-      "currency": "SGD",
-      "balance": "77777"
-    },
-    {
-      "id": "0.8866946535582323",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "1d4d",
-      "name": "dolllars",
-      "currency": "USD",
-      "balance": "99999"
-    },
-    {
-      "id": "0.10749882688432977",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "d6fe",
-      "name": "fffff",
-      "currency": "AED",
-      "balance": "333"
-    },
-    {
-      "id": "0.012517833628615804",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "d6fe",
-      "name": "fffff",
-      "currency": "AED",
-      "balance": "333"
-    },
-    {
-      "id": "0.22049464613657044",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "d6fe",
-      "name": "ffff",
-      "currency": "AED",
-      "balance": "44444"
-    },
-    {
-      "id": "0.611076091977895",
-      "created_at": "02.03.2024",
-      "updated_at": "02.03.2024",
-      "user_id": "ad88",
-      "name": "ffff",
-      "currency": "AED",
-      "balance": "44444"
-    },
-    {
-      "id": "0.7771882909729526",
-      "created_at": "04.03.2024",
-      "updated_at": "04.03.2024",
-      "user_id": "ad88",
-      "name": "hghg",
-      "currency": "AED",
-      "balance": "3333"
-    },
-    {
-      "id": "0.819833541860906",
-      "created_at": "04.03.2024",
-      "updated_at": "04.03.2024",
-      "user_id": "ad88",
-      "name": "sdasdasd",
-      "currency": "AED",
-      "balance": "333"
-    },
-    {
-      "id": "0.13371694744805795",
-      "created_at": "12.03.2024",
-      "updated_at": "12.03.2024",
+      "id": "0.46304806287754974",
+      "created_at": "27.03.2024",
+      "updated_at": "27.03.2024",
       "user_id": "ad88",
       "name": "Sardor",
       "currency": "USD",
-      "balance": "11819.999974"
+      "balance": "10000"
     },
     {
-      "id": "0.3781367950987997",
-      "created_at": "12.03.2024",
-      "updated_at": "12.03.2024",
-      "user_id": "ad88",
-      "name": "Visa",
-      "currency": "UZS",
-      "balance": "1234567898"
-    },
-    {
-      "id": "0.9071219815972495",
-      "created_at": "12.03.2024",
-      "updated_at": "12.03.2024",
+      "id": "0.438734131488524",
+      "created_at": "27.03.2024",
+      "updated_at": "27.03.2024",
       "user_id": "ad88",
       "name": "Visa",
       "currency": "USD",
-      "balance": "49126"
+      "balance": 119900
     },
     {
-      "id": "0.6091860277940435",
-      "created_at": "12.03.2024",
-      "updated_at": "12.03.2024",
+      "id": "0.16974274091869535",
+      "created_at": "27.03.2024",
+      "updated_at": "27.03.2024",
       "user_id": "ad88",
       "name": "Sardor2",
-      "currency": "USD",
-      "balance": 1e+24
-    },
-    {
-      "id": "0.04086117697420932",
-      "created_at": "26.03.2024",
-      "updated_at": "26.03.2024",
-      "user_id": "ad88",
-      "name": "Sardor",
       "currency": "AED",
-      "balance": "209"
+      "balance": "100000"
     },
     {
-      "id": "0.2595123592297073",
-      "created_at": "26.03.2024",
-      "updated_at": "26.03.2024",
+      "id": "0.297703396858215",
+      "created_at": "27.03.2024",
+      "updated_at": "27.03.2024",
       "user_id": "ad88",
-      "name": "Visa",
+      "name": "Visa2",
       "currency": "USD",
-      "balance": 11.16729
+      "balance": "50000"
     }
   ],
   "transactions": [
     {
-      "id": "5e04",
-      "created_at": "12:17 PM",
-      "created_on": "26 March 2024",
+      "id": "6c3a",
+      "created_at": "8:11 PM",
+      "created_on": "27 March 2024",
       "user_id": "ad88",
       "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Sardor",
-        "currency": "AED",
-        "balance": 2091
-      },
-      "total": "1000",
-      "category": "Shopping",
-      "description": "Tomorrow ",
-      "wallet_id": "0.04086117697420932"
-    },
-    {
-      "id": "1b8e",
-      "created_at": "12:22 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
+        "created_at": "27.03.2024",
+        "updated_at": "27.03.2024",
         "name": "Visa",
-        "currency": "AED",
-        "balance": 4000
-      },
-      "total": "1000",
-      "category": "Shopping",
-      "description": "Tomorrow ",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "4f96",
-      "created_at": "12:25 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": 3110
-      },
-      "total": "890",
-      "category": "T",
-      "description": "jhk",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "8646",
-      "created_at": "12:25 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": 2110
-      },
-      "total": "1000",
-      "category": "yu",
-      "description": "jhk",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "738c",
-      "created_at": "12:26 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": 1220
-      },
-      "total": "890",
-      "category": "Shopping",
-      "description": "jhk",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "a77d",
-      "created_at": "12:27 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": 220
-      },
-      "total": "1000",
-      "category": "Traveling ",
-      "description": "jhk",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "1b35",
-      "created_at": "12:28 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": 131
-      },
-      "total": "89",
-      "category": "Traveling ",
-      "description": "Tomorrow ",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "5373",
-      "created_at": "12:29 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": 41
-      },
-      "total": "90",
-      "category": "Traveling ",
-      "description": "jhk",
-      "wallet_id": "0.2595123592297073"
-    },
-    {
-      "id": "f79d",
-      "created_at": "12:29 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "26.03.2024",
-        "updated_at": "26.03.2024",
-        "name": "Visa",
-        "currency": "AED",
-        "balance": -49
-      },
-      "total": "90",
-      "category": "Traveling ",
-      "description": "jhk"
-    },
-    {
-      "id": "fea6",
-      "created_at": "12:37 PM",
-      "created_on": "26 March 2024",
-      "user_id": "ad88",
-      "wallet": {
-        "created_at": "12.03.2024",
-        "updated_at": "12.03.2024",
-        "name": "Sardor2",
         "currency": "USD",
-        "balance": 1e+24
+        "balance": 119900
       },
-      "total": "10000",
-      "category": "Shopping",
-      "description": "Mukhitdinov",
-      "wallet_id": "0.6091860277940435"
+      "total": "100",
+      "category": "tdddtd",
+      "description": "Tomorrow should be done",
+      "wallet_id": "0.438734131488524"
     }
   ]
 }

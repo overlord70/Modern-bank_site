@@ -63,3 +63,56 @@ new Chart(chart, {
       opt.selected = true
      }
   })
+  const novel_canvas = document.getElementById('novel_canvas')
+
+  // new Chart(novel_canvas, {
+  //   type: 'line',
+  //   data: {
+  //     labels: [],
+  //     datasets: [{
+  //       label: '# Market',
+  //       data: [],
+  //       borderWidth: 1
+  //     }]
+  //   },
+  //   options: {
+  //       innerHeight: '200px',
+  //       outerHeight: '200px',
+  //     scales: {
+  //       x: {
+  //         beginAtZero: true
+  //       }
+  //     }
+  //   }
+  // });
+  const data = {
+    labels: ['01_23', '02_23', '03_23', '04_23', '05_23', '06_23', '07_23', '08_23', '09_23', '10_23', '11_23', '12_23', '01_24', '02_24', '03_24'],
+    datasets: [{
+      label: 'Looping tension',
+      data: [65, 59, 80, 81, 26, 55, 40, 90, 39, 87, 11, 95, 60, 90, 70],
+      fill: false,
+      borderImageSource: 'linear-gradient(260.17deg, rgba(0, 151, 232, 0) -8.81%, #0097E8 59.83%, rgba(0, 151, 232, 0) 106.22%)',
+    }]
+  };
+  new Chart(novel_canvas,{ 
+    type: 'line',
+    data: data,
+    options: {
+      animations: {
+        tension: {
+          duration: 1000,
+          easing: 'linear',
+          from: 1,
+          to: 0,
+          loop: true,
+        }
+      },
+      scales: {
+        y: { // defining min and max so hiding the dataset does not change scale range
+          min: 0,
+          max: 100
+        }
+      }
+    }
+  }
+  )

@@ -39,7 +39,6 @@ export function CreateHeader(place) {
     const exchange = document.createElement('p')
     const nav_link5 = document.createElement('div')
     const img_shop = document.createElement('img')
-    const market = document.createElement('p')
     const footer = document.createElement('footer')
     const line_2 = document.createElement('div')
     const user_name = document.createElement('h2')
@@ -106,9 +105,8 @@ export function CreateHeader(place) {
     h1.innerHTML = 'valuet'
     overview.innerHTML = 'Overview'
     wallets.innerHTML = 'Wallets'
-    user_name.innerHTML = 'Sardor Mukhitdinov'
+    user_name.innerHTML = user.name + ' ' + user.surname
     transictions.innerHTML = 'Transictions'
-    market.innerHTML = 'Market'
     exchange.innerHTML = 'Exchange'
     right.className = 'right'
     left.className = 'left'
@@ -119,7 +117,6 @@ export function CreateHeader(place) {
     header.append(left, right)
     account.append(img_circle, user_name)
     log_out.append(img_log_out, h2_log_out)
-    nav_link5.append(img_shop, market)
     nav_link4.append(img_exchange, exchange)
     nav_link3.append(img_transaction, transictions)
     nav_link2.append(img_wallet, wallets)
@@ -132,7 +129,6 @@ export function CreateHeader(place) {
         nav_link2,
         nav_link3,
         nav_link4,
-        nav_link5,
         footer
     )
     place.append(aside, header)
@@ -144,8 +140,6 @@ export function CreateHeader(place) {
         transictions.parentElement.classList.add('active_link')
     } else if(location.pathname.includes('/exchange')){
         exchange.parentElement.classList.add('active_link')
-    } else if(location.pathname.includes('/market')){
-        market.parentElement.classList.add('active_link')
     } else {
         overview.parentElement.classList.add('active_link')
     }
@@ -157,9 +151,6 @@ export function CreateHeader(place) {
     }
     overview.parentElement.onclick = () => {
         location.assign('/')
-    }
-    market.parentElement.onclick = () => {
-        location.assign('/pages/market/')
     }
     exchange.parentElement.onclick = () => {
         location.assign('/pages/exchange/')
@@ -246,6 +237,12 @@ export function reload(arr, place) {
         its_money.id = ('its_money')
         if(item.balance.toString().length > 3){
             its_money.innerHTML = item.balance.toString().slice(0,3) + '...'
+            its_money.onmouseenter = () => {
+                its_money.innerHTML = item.balance
+            }
+            its_money.onmouseleave = () => {
+                its_money.innerHTML = item.balance.toString().slice(0,3) + '...'
+            }
         } else {
             its_money.innerHTML = item.balance
         }
