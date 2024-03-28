@@ -44,6 +44,15 @@
       "name": "Visa2",
       "currency": "USD",
       "balance": "50000"
+    },
+    {
+      "id": "0.20718862233092894",
+      "created_at": "28.03.2024",
+      "updated_at": "28.03.2024",
+      "user_id": "ad88",
+      "name": "Humo",
+      "currency": "USD",
+      "balance": "89090"
     }
   ],
   "transactions": [

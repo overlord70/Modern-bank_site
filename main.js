@@ -117,12 +117,12 @@ new Chart(chart, {
   }
   )
    const que_of_transactions = document.querySelector('.que_of_transactions')
-  for (let i = 0; i < 15; i++) {
+  for (let i = 1; i <= 15; i++) {
     const news = document.createElement('div')
     const tick_time = document.createElement('h3')
     const inf_of_news = document.createElement('p')
     news.className = 'news'
-    tick_time.innerHTML = moment().startOf('day').fromNow()
+    tick_time.innerHTML =i + moment().startOf('day').fromNow()
     inf_of_news.innerHTML = 'SEC Fails to Show Court Blockvest Tokens AreSecurities'
     news.append(tick_time, inf_of_news)
     que_of_transactions.append(news)

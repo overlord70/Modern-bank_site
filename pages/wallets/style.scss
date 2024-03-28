@@ -7,16 +7,13 @@
 .overal_money_and_cards{
     height: 200px;
     overflow-x:scroll;
-    margin: 0px 200px;
+    margin: 0px 230px;
     width: 1030px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 10px;
 }
-.canvas{
-    height: 200px;
-    width: 200px;
-}
+
 #add_wallet{
     margin-right: -120px;
     border: 0;

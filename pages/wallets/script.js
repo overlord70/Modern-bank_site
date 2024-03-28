@@ -1,6 +1,7 @@
 import { getData } from "../../modules/http";
 import { CreateHeader, reload } from "../../modules/ui";
-import Chart from 'chart.js/auto';
+import { Chart } from 'chart.js/auto';
+import { getRelativePosition } from 'chart.js/helpers';
 const main = document.querySelector('.main')
 CreateHeader(main)
 const user = JSON.parse(localStorage.getItem('user'))
@@ -11,7 +12,5 @@ add_wallet.onclick = () => {
 }
     getData('/wallets?user_id=' + user.id)
     .then(res => reload(res,overal_money_and_cards))
-    const total_money_in_your_account = document.querySelector('#total_money_in_your_account')
-let num = 9
-
-console.log(num.toString());
+    
+  
