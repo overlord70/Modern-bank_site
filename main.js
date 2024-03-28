@@ -35,27 +35,37 @@ new Chart(ctx, {
   }
 });
 const chart = document.getElementById('chart');
-
-new Chart(chart, {
-    type: 'line',
-    data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'lk', 'kll', '90'],
-      datasets: [{
-        label: '# of Votes',
-        data: [1, 2, 3, 4, 95, 96, 7, 8, 9, 10, 3],
-        borderWidth: 1
-      }]
+const data_original = {
+  labels: ['12_23','01_24', '02_24', '03_24'],
+  datasets: [{
+    label: 'Transactions',
+    data: [80, 10, 70, 90],
+    fill: false,
+    borderImageSource: 'linear-gradient(260.17deg, rgba(0, 151, 232, 0) -8.81%, #0097E8 59.83%, rgba(0, 151, 232, 0) 106.22%)',
+}]
+}
+new Chart(chart,{ 
+  type: 'line',
+  data: data_original,
+  options: {
+    animations: {
+      tension: {
+        duration: 1000,
+        easing: 'linear',
+        from: 1,
+        to: 0,
+        loop: true,
+      }
     },
-    options: {
-        innerHeight: '200px',
-        outerHeight: '200px',
-      scales: {
-        x: {
-          beginAtZero: true
-        }
+    scales: {
+      y: { // defining min and max so hiding the dataset does not change scale range
+        min: 0,
+        max: 100
       }
     }
-  });
+  }
+}
+)
   const options = document.querySelectorAll('option')
   const time_h3 = document.querySelector('.flex_time h3')
   options.forEach(opt => {
@@ -107,3 +117,22 @@ new Chart(chart, {
     news.append(tick_time, inf_of_news)
     que_of_transactions.append(news)
   }
+  const num_of_it = document.querySelector('#num_of_it')
+  getData('/wallets?user_id=' + user.id)
+  .then(res => {
+    res.filter(item => {
+     if(item.balance !== undefined){
+      num_of_it.innerHTML = +num_of_it.innerHTML + item.balance
+     }
+    })
+  })
+  const number = document.querySelector('#number')
+  getData('/transactions?user_id=' + user.id)
+  .then(res => {
+    res.filter(item => {
+     if(+item.total !== undefined){
+      item.total = +item.total
+      number.innerHTML = +number.innerHTML + item.total
+     }
+    })
+  })
