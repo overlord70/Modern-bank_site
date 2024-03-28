@@ -27,3 +27,88 @@
     width: 100px;
     height: 29px;
 }
+.grid_tran{
+ margin-left: 230px;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 50px;
+    .diagram_of_wallets{
+        filter: drop-shadow(5px 5px 5px black);
+        position: relative;
+        width: 552px;
+        height: 309px;
+        border-radius: 5px;
+        background: linear-gradient(176.95deg, rgba(27, 18, 78, 0.2) -32.8%, #0F0B38 88.83%);
+        h2{
+            padding: 20px 20px;
+            color: #fff;
+            font-style: Open Sans;
+            font-size: 19px;
+        }
+    }
+    #ccanvvas{
+        filter: drop-shadow(5px 5px 5px black);
+        position: absolute;
+        bottom: 0;
+    }
+    .transactions{
+        width: 430px;
+        height: 309px;
+        border-radius: 5px;
+        background: linear-gradient(176.95deg, rgba(27, 18, 78, 0.2) -32.8%, #0F0B38 88.83%);
+        overflow-y: scroll;
+        filter: drop-shadow(5px 5px 5px black);
+        padding: 15px 20px;
+        h2{
+            font-family: Open Sans;
+            font-size: 14px;
+            line-height: 19.07px;
+            text-align: left;
+            color: white;
+        }
+       .hr{
+        margin-top: 10px;
+        width:390px;
+        height: 3px;
+        background-color:#2D317A;
+       }
+    }
+    .transaction{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            h3{
+                width: 65px;
+                font-family: Open Sans;
+                font-size: 14px;
+                line-height: 19.07px;
+                text-align: left;
+                color: #616A8B;
+            }
+            .name_of_trtr{
+                font-family: Roboto;
+                font-size: 12px;
+                line-height: 14.06px;
+                text-align: left;
+            }
+            .name{
+                font-family: Roboto;
+                font-size: 12px;
+                line-height: 14.06px;
+                text-align: left;
+            }
+            #money{
+                font-family: Open Sans;
+                font-size: 14px;
+                line-height: 19.07px;
+                text-align: right;
+            }
+        }
+    }
+}

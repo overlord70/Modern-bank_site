@@ -17,9 +17,6 @@ body{
     height: 100%;
     background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #20135C 0%, #140739 92.82%);
 }
-// .one, .two{
-//     width: 1000px !important; 
-// }
 .aplince{
     margin-left: 230px;
     margin-bottom: 20px;
@@ -87,11 +84,13 @@ body{
             background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
             height: 3px;
             width: 130px;
+            margin-bottom: 15px;
         }
     }
     .nav_link{
+        width: 290px;
+        height: 70px;
         cursor: pointer;
-        margin-block: 20px;
         padding-inline: 30px;
         display: flex;
         gap: 30px;

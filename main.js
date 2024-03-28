@@ -65,26 +65,6 @@ new Chart(chart, {
   })
   const novel_canvas = document.getElementById('novel_canvas')
 
-  // new Chart(novel_canvas, {
-  //   type: 'line',
-  //   data: {
-  //     labels: [],
-  //     datasets: [{
-  //       label: '# Market',
-  //       data: [],
-  //       borderWidth: 1
-  //     }]
-  //   },
-  //   options: {
-  //       innerHeight: '200px',
-  //       outerHeight: '200px',
-  //     scales: {
-  //       x: {
-  //         beginAtZero: true
-  //       }
-  //     }
-  //   }
-  // });
   const data = {
     labels: ['01_23', '02_23', '03_23', '04_23', '05_23', '06_23', '07_23', '08_23', '09_23', '10_23', '11_23', '12_23', '01_24', '02_24', '03_24'],
     datasets: [{
@@ -122,7 +102,7 @@ new Chart(chart, {
     const tick_time = document.createElement('h3')
     const inf_of_news = document.createElement('p')
     news.className = 'news'
-    tick_time.innerHTML =i + moment().startOf('day').fromNow()
+    tick_time.innerHTML = moment().startOf('day').fromNow()
     inf_of_news.innerHTML = 'SEC Fails to Show Court Blockvest Tokens AreSecurities'
     news.append(tick_time, inf_of_news)
     que_of_transactions.append(news)

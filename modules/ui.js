@@ -1,9 +1,11 @@
+import moment from "moment/moment"
+
 const user = JSON.parse(localStorage.getItem('user'))
 function getRGB() {
 
-    let r = Math.floor(Math.random() * 145)
-    let g = Math.floor(Math.random() * 70)
-    let b = Math.floor(Math.random() * 223)
+    let r = Math.floor(Math.random() * 140)
+    let g = Math.floor(Math.random() * 75)
+    let b = Math.floor(Math.random() * 213)
 
     return `rgb(${r}, ${g}, ${b})`
 }
@@ -355,10 +357,50 @@ export function reloadTransaction(arr, place) {
         place.append(transaction)
     }
     }
-
-export function reload_cards_for_market(place) {
-    for (let i = 0; index < 15; i++) {
-    //    const 
-        
+//     <div class="transaction">
+//     <div class="left">
+//         <h3>AM 01:16</h3>
+//     <img src="../.." alt="">
+//     <p class="name">
+//         Received BitCoin
+//         <br>
+//         <span class="name_of_trtr">
+//             From Elon Musk
+//         </span>
+//     </p>
+//     </div>
+//     <div class="right">
+//         <p id="money">+ 4,800</p>
+//     </div>
+// </div>
+export function reload_cards_for_market(arr, place) {
+    place.innerHTML = ''
+     for (const item of arr) {
+        const transaction = document.createElement('div')
+        const left = document.createElement('div')
+        const h3 = document.createElement('h3')
+        const img = document.createElement('img')
+        const name = document.createElement('p')
+        const br = document.createElement('br')
+        const name_of_trtr = document.createElement('span')
+        const right = document.createElement('div')
+        const money = document.createElement('p')
+        // b
+        transaction.className = 'transaction'
+        left.className = 'left'
+        h3.innerHTML = item.created_at
+        img.src = '/public/Group 14.png'
+        name.className = 'name'
+        name.innerHTML = item.description
+        name_of_trtr.classList.add('name_of_trtr')
+        name_of_trtr.innerHTML =  'From ' + item.wallet.name
+        right.classList.add('right')
+        money.innerHTML = item.total +  item.wallet.currency
+        // c
+        name.append(br, name_of_trtr)
+        right.append(money)
+        left.append(h3, img, name)
+        transaction.append(left, right)
+        place.append(transaction)
+     }
     }
-}
